@@ -1,0 +1,43 @@
+<nav
+  class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
+>
+  <div
+    class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+  >
+    
+    <div
+      class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none"
+      [ngClass]="{'hidden': !showMenu, 'block': showMenu}"
+    >
+    
+      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+        <li class="flex items-center">
+          <a
+            class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+            href="https://www.facebook.com/yara.rochacruz"
+            ><i class="fab fa-facebook text-5xl leading-lg "></i>
+            <span class="lg:hidden inline-block ml-2">Share</span></a>
+        </li>
+        <li class="flex items-center">
+          <a
+            class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+            href="https://www.instagram.com/yara.rochacruz"
+            ><i class="fab fa-instagram text-5xl leading-lg "
+            ></i
+            ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+          >
+        </li>
+        <li class="flex items-center">
+          <a
+            class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+            href="https://api.whatsapp.com/send?phone=553498189123"
+            ><i class="fab fa-whatsapp text-5xl leading-lg "
+            ></i
+            ><span class="lg:hidden inline-block ml-2">Star</span></a
+          >
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
